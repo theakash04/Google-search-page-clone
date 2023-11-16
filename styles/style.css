@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+  overflow-x:hidden;
+  overflow-y: auto;
+}
+.main {
+  width:100vw;
+  height: 87vh;
+}
+
+/* navbar top line */
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  column-gap: 15px;
+  align-items: center;
+  padding: 6px 6px;
+  font-family: Arial, sans-serif;
+}
+.logo {
+  margin: 6px 7px;
+  height: 33px;
+  width: 33px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.gmail,
+.images {
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+  transition: text-decoration 0.15s;
+}
+.gmail:hover,
+.images:hover {
+  text-decoration: underline;
+}
+.menu {
+  width: 27px;
+  height: 27px;
+  cursor: pointer;
+  border-radius: 100px;
+  padding: 7px;
+  transition: background-color 0.15s;
+}
+.menu:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* google image  */
+.goolgol {
+  margin: 10px auto;
+  display: block;
+  width: 25%;
+}
+
+/* search box */
+.search-bar-line {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.search-bar {
+  display: flex;
+  border: solid rgb(218, 220, 224) 0.4px;
+  outline: none;
+  width: 50%;
+  border-radius: 100px;
+  align-items: center;
+  justify-content: start;
+  transition: box-shadow 0.1s;
+}
+.search-bar:hover {
+  box-shadow: 0 2px 6px rgb(188, 190, 193);
+}
+.sb {
+  width: 85%;
+  height: 50px;
+  padding-left: 20px;
+  border-radius: 29px;
+  outline: none;
+  border: none;
+}
+
+/* search icon image */
+.search {
+  width: 20px;
+  margin-left: 17px;
+}
+
+/*Google assistant image*/
+.g-ai {
+  margin-right: 15px;
+  width: 20px;
+  cursor: pointer;
+}
+
+/* 2 buttons below search bar */
+.button-a {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  margin-top: 30px;
+}
+
+.gs,
+.ifl {
+  background-color: rgb(248, 249, 250);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: outline 0.15s, box-shadow 0.15s;
+}
+.ifl {
+  margin-left: 14px;
+}
+
+/* Button animaton */
+.gs:hover,
+.ifl:hover {
+  box-shadow: 0 0 5px rgb(188, 190, 193);
+}
+
+
+/* Google offered in */
+.lang {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.goi {
+  margin-left: 5px;;
+  margin-right: 10px;
+  color: rgb(77, 81, 86);
+}
+.languages {
+  width: auto;
+  line-height: 25px;
+}
+/* languages names design */
+span {
+  margin-left: 5px;
+  color: rgb(7, 7, 172);
+  cursor: pointer;
+  font-size: 13px;
+  transition: tex-decoration 0.15s;
+}
+span:hover {
+  text-decoration: underline;
+}
+
+/* bottom line  */
+.last-page {
+  position: relative;
+  bottom: 0px;
+  width: 100vw;
+  height: max-content;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.foot1 {
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  border-bottom: solid rgb(218, 220, 224) 0.3px;
+}
+.country {
+  margin-left: 25px;
+  padding: 15px 0px;
+}
+.foot2 {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-color: rgb(241, 241, 241);
+  width: 100%;
+  padding: 20px 0;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+}
+.left {
+  display: flex;
+  margin-left: 25px;
+}
+.right {
+  display: flex;
+  margin-right: 25px;
+}
+.left > p {
+  margin-right: 20px;
+  cursor: pointer;
+  transition: text-decoration 0.15s;
+}
+.right > p {
+  margin-right: 20px;
+  cursor: pointer;
+  transition: text-decoration 0.15s;
+}
+.right > p:hover,
+.left > p:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+/* Responsive styling */
+
+@media screen and (max-width: 700px) {
+
+  /* google image  */
+  .goolgol {
+    margin: 20px auto;
+    display: block;
+    width: 50%; 
+    height: auto; 
+  }
+  /* search bar */
+  .search-bar{
+    width: 70%;
+  }
+
+  /* buttons */
+  .gs,.ifl{
+    font-size: 12px;
+    padding: 10px 20px;
+  }
+
+  /* languages */
+  .lang{
+    display: block;
+    margin-top: 50px;
+  }
+  .goi{
+    margin-bottom: 10px;
+  }
+  .languages{
+    width: auto;
+    line-height: 30px;
+  }
+
+  /* footer which is hidden */
+  .last-page{
+    display: none;
+  }
+}
