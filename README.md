@@ -10,10 +10,9 @@ This project replicates the look and feel of Google's search page. It includes a
 
 ## Preview
 
-### Desktop 
-![Google Search Page](Assests/Google-clone-desktop.png)
-### Mobile
-![Google Search Page](Assests/mobile-ios.png)
+### video preview 
+https://github.com/theakash04/Google-search-page-clone/blob/0198e719454aed860ca54f3f4c4ddbac7c77ae6f/Assests/Google-search-clone.gif
+
 
 ## Getting Started
 
