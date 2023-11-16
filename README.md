@@ -8,9 +8,8 @@ This project replicates the look and feel of Google's search page. It includes a
 - Responsive design.
 - Minimalistic styling inspired by Google's UI.
 
-## Preview
 
-### video preview 
+## video preview 
 <video src="20231116-1532-30.2001781.mp4" controls title="Title"></video>
 
 ## Getting Started
