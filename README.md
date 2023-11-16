@@ -17,7 +17,7 @@ This project replicates the look and feel of Google's search page. It includes a
 1. Clone this repository:
 
     ```bash
-     git clone https://github.com/theakash/Google-search-page-clone.git   
+     git clone https://github.com/theakash04/Google-search-page-clone.git   
     ```
 
 2. Open `index.html` in your preferred web browser.
