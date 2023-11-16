@@ -11,7 +11,7 @@ This project replicates the look and feel of Google's search page. It includes a
 ## Preview
 
 ### video preview 
-
+<video src="20231116-1532-30.2001781.mp4" controls title="Title"></video>
 
 ## Getting Started
 
